@@ -1,0 +1,43 @@
+Script started on 2020-12-02 22:05:30+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="80" LINES="20"]
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_7[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_7[00m$ sudo docker stop 5e[2Pps -astop 22[2Pps -astop docker-clock[A]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_7[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_7[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd devopswithdocker/ls[Kcd Documents/script exercise1_6.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript exercise1_6.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9Pcd Documents/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd devopswithdocker/ls[Ksudo docker stop docker-clock[A]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_7[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_7[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[5Pps -a
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstop 22[2Pps -astop 5e[Ksudo docker stop 5e[2Pps -astop 22[2Pps -astop docker-clock[A]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_7[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_7[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd devopswithdocker/ls[Kcd Documents/[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo docker build -t c urler .
+[sudo] password for cesc: 
+Sending build context to Docker daemon  3.584kB
+Step 1/6 : FROM ubuntu:16.04
+ ---> 9499db781771
+Step 2/6 : WORKDIR /mydir
+ ---> Using cache
+ ---> b3847d477ba9
+Step 3/6 : RUN apt-get update && apt-get install -y curl
+ ---> Using cache
+ ---> d9880e07c578
+Step 4/6 : COPY start.sh .
+ ---> Using cache
+ ---> ba5835f355d2
+Step 5/6 : RUN chmod +x ./start.sh
+ ---> Using cache
+ ---> f97fa3f29c78
+Step 6/6 : CMD /mydir/start.sh
+ ---> Using cache
+ ---> 4485c26da6a5
+Successfully built 4485c26da6a5
+Successfully tagged curler:latest
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_7[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_7[00m$ sudo docker run -it cu rler
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_7[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_7[00m$ exit
+exit
+
+Script done on 2020-12-02 22:06:42+01:00 [COMMAND_EXIT_CODE="0"]

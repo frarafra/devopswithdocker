@@ -1,0 +1,17 @@
+Script started on 2020-11-28 11:48:45+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ exitsudo docker exec -it ubuntu_curl bash[Kexit[Ksudo docker run -it --name ubuntu_curl ubuntu sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+[sudo] password for cesc: 
+Input website:
+helsinki.fi
+Searching..
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.helsinki.fi/">here</a>.</p>
+</body></html>
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ exit
+exit
+
+Script done on 2020-11-28 11:50:34+01:00 [COMMAND_EXIT_CODE="0"]

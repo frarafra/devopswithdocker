@@ -1,0 +1,13 @@
+Script started on 2020-12-13 20:39:41+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="111" LINES="13"]
+]0;cesc@home: ~/Documents/devopswithdocker/part2/exercise2_4/scaling-exercise[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part2/exercise2_4/scaling-exercise[00m$ curl 0.0.0.0:4915435sudo docker-compose port --index 3 whoami 8000[A]0;cesc@home: ~/Documents/devopswithdocker/part2/exercise2_4/scaling-exercise[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part2/exercise2_4/scaling-exercise[00m$ [18Pcurl 0.0.0.0:49155
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C34[Ksudo docker-compose up -d --scale compute=3
+[sudo] password for cesc: 
+calculator is up-to-date
+scaling-exercise_compute_1 is up-to-date
+scaling-exercise_compute_2 is up-to-date
+load-balancer is up-to-date
+scaling-exercise_compute_3 is up-to-date
+]0;cesc@home: ~/Documents/devopswithdocker/part2/exercise2_4/scaling-exercise[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part2/exercise2_4/scaling-exercise[00m$ exit
+exit
+
+Script done on 2020-12-13 20:40:43+01:00 [COMMAND_EXIT_CODE="0"]

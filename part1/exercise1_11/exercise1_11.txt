@@ -1,0 +1,60 @@
+Script started on 2020-12-07 19:58:51+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="84" LINES="20"]
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_11[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_11[00m$ sudo docker build -t open-port .[1P .[1P .[1P .[1P .
+[1P .
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C .[K[A
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_11[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C . 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P .
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P .b .a . [A
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_11[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc .[A
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_11[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_11[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ck .
+e .n .d .- .e .x .a .m .p .l .e .
+[sudo] password for cesc: 
+Sending build context to Docker daemon  557.1kB
+Sending build context to Docker daemon  5.014MB
+Sending build context to Docker daemon  13.93MB
+Sending build context to Docker daemon  17.72MB
+
+
+Step 1/5 : FROM node:10
+ ---> 2db91b8e7c1b
+Step 2/5 : WORKDIR /app
+ ---> Using cache
+ ---> 0ee4df07aa0c
+Step 3/5 : COPY ./backend-example-docker/ ./
+ ---> Using cache
+ ---> 3c34607bac2d
+Step 4/5 : EXPOSE 8000
+ ---> Using cache
+ ---> c573ba2c0a7e
+Step 5/5 : ENTRYPOINT ["npm", "start"]
+ ---> Using cache
+ ---> f7ca2d943a2b
+Successfully built f7ca2d943a2b
+Successfully tagged backend-example:latest
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_11[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_11[00m$ sudo docker run -p 8000:8 
+000 -v "$(pwd)/logs/logs.txt:/app/logs.txt" backend-example[37@$(pwd)/material.md:/mydir/material.md[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@o[1P[1@l[1@o[1@g[1@s[1@.[1@t[1@x[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@a[1@p[1@p[1@/[1@l[1@o[1@g[1@s[1@.[1@t[1@x[1@t[C[C[1@l[1@o[1@g[1@s[1@/
+
+> backend-example-docker@1.0.0 start /app
+> node index.js
+
+ENV values set as follows: { DB:
+   { username: undefined,
+     password: undefined,
+     database: undefined,
+     host: 'localhost' },
+  PORT: 8000,
+  FRONT_URL: '',
+  REDIS: undefined,
+  REDIS_PORT: 6379 }
+[Exercise 2.6+] DB_USERNAME and/or DB_PASSWORD are not defined, skipping db connection
+[Exercise 2.5+] REDIS is not defined, skipping redis connection
+Started on port 8000
+::ffff:172.17.0.1 - GET / HTTP/1.1 304 - - 11.276 ms
+::ffff:172.17.0.1 - GET / HTTP/1.1 304 - - 0.985 ms
+::ffff:172.17.0.1 - GET / HTTP/1.1 304 - - 0.378 ms
+::ffff:172.17.0.1 - GET / HTTP/1.1 304 - - 7.215 ms
+^C^C]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_11[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_11[00m$ exit
+exit
+
+Script done on 2020-12-07 20:03:37+01:00 [COMMAND_EXIT_CODE="0"]

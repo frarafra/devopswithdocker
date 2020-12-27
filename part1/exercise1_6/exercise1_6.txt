@@ -1,0 +1,57 @@
+Script started on 2020-11-29 21:02:46+01:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="20"]
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_6[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_6[00m$ sud [K[Kdo docker run -it myfirst[A]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_6[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_6[00m$ [13Pcd part1/
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript exercise1_5.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo docker container prune[A]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_6[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_6[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[5Pps -a
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccript exercise1_5.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cudo docker container prune[A]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_6[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_6[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[3Pstop ed
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Pps -acript exercise1_5.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo docker ps -acontainer prune[A]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_6[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_6[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[5Pps -a
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccript exercise1_5.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo docker build -t d ocker [K-cl[K[Kclock ..[K[K.
+[sudo] password for cesc: 
+Sending build context to Docker daemon   2.56kB
+Step 1/2 : FROM devopsdockeruh/overwrite_cmd_exercise
+ ---> 3d2b622b1849
+Step 2/2 : CMD [" -c 1"]
+ ---> Running in 6ec2c3e669d3
+Removing intermediate container 6ec2c3e669d3
+ ---> df2c91f1c090
+Successfully built df2c91f1c090
+Successfully tagged docker-clock:latest
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_6[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_6[00m$ sudo docker clock[K[K[K[K[Krun docker -co[K[Kclock
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_6[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_6[00m$ exit
+exit
+
+Script done on 2020-11-29 21:04:42+01:00 [COMMAND_EXIT_CODE="137"]

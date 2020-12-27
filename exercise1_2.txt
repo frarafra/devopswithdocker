@@ -1,0 +1,43 @@
+Script started on 2020-11-22 19:46:05+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ exitsudo docker ps -a
+[sudo] password for cesc: 
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+39fb93043a96        nginx               "/docker-entrypoint.…"   3 minutes ago       Exited (0) 3 minutes ago                       objective_chatelet
+1dd714fa9167        nginx               "/docker-entrypoint.…"   3 minutes ago       Exited (0) 3 minutes ago                       vigorous_wozniak
+9a9d4d48c122        nginx               "/docker-entrypoint.…"   3 minutes ago       Up 3 minutes               80/tcp              exciting_kare
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker ps -aexit[Ksudo docker ps -aexit[Ksudo docker ps -astop 1d[K[K9a
+9a
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker stop 9a[2Pps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+39fb93043a96        nginx               "/docker-entrypoint.…"   4 minutes ago       Exited (0) 4 minutes ago                       objective_chatelet
+1dd714fa9167        nginx               "/docker-entrypoint.…"   4 minutes ago       Exited (0) 3 minutes ago                       vigorous_wozniak
+9a9d4d48c122        nginx               "/docker-entrypoint.…"   4 minutes ago       Exited (0) 8 seconds ago                       exciting_kare
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker ps -astop 9a[2Pps -aexit[Ksudo docker ps -astop 1d39[2Pps -arun -d nginxexit[Ksudo docker stop 36589d[2Pps -arun -d nginxexit[Ksudo docker container prune
+WARNING! This will remove all stopped containers.
+Are you sure you want to continue? [y/N] y
+Deleted Containers:
+39fb93043a96cb14c5a554b282e69ff2104cdfb588e33f68d32937f5d7433caf
+1dd714fa9167f1a869d22ecd16b5741c3da58171ae529861e7beb11417c58f33
+9a9d4d48c12240e3ea4bf3c042f8317b72215c1328679cb9040694cbc3ab9c76
+
+Total reclaimed space: 3.342kB
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker container prune[10Pps -a
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker ps -a[K[K[K[K[Kimages
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+nginx               latest              daee903b4e43        4 days ago          133MB
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker rmi daee
+Untagged: nginx:latest
+Untagged: nginx@sha256:c3a1592d2b6d275bef4087573355827b200b00ffc2d9849890a4f3aa2128c4ae
+Deleted: sha256:daee903b4e436178418e41d8dc223b73632144847e5fe81d061296e667f16ef2
+Deleted: sha256:5cb676bcf30b4812d70161abdb1cb6bbcbcd005fa5ea80a0e4e694a921e1748f
+Deleted: sha256:5d1b41d97ff62d07459012d67b1ed2af8e8ed3562f0c4aefcb8ae9fa86f09368
+Deleted: sha256:61a339b2108ac582b905a652bc638a28ce62972e0a84df0be362a4a1117f81d1
+Deleted: sha256:2e4d3caf29b5cd9941ea4802d38dfca7f5d5f42adf78c5804704925ca8dcc66a
+Deleted: sha256:f5600c6330da7bb112776ba067a32a9c20842d6ecc8ee3289f1a713b644092f8
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker rmi daee[2Pimages
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ exit
+exit
+
+Script done on 2020-11-22 19:48:10+01:00 [COMMAND_EXIT_CODE="0"]

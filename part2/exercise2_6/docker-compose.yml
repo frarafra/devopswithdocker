@@ -1,0 +1,29 @@
+version: '3.5'
+services:
+  frontend: 
+    image: frontend-example 
+    ports: 
+      - 5000:5000
+  backend: 
+    image: backend-example 
+    ports: 
+      - 8888:8000
+    environment:
+      - REDIS=redis
+      - DB_USERNAME=cesc
+      - DB_PASSWORD=example
+      - DB_NAME=db_backend
+      - DB_HOST=db
+    links:
+      - redis
+      - db
+  redis:
+    image: redis
+  db:
+    image: postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=cesc
+      - POSTGRES_PASSWORD=example
+      - POSTGRES_DB=db_backend
+    container_name: db_backend

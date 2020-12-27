@@ -1,0 +1,26 @@
+Script started on 2020-11-22 19:42:25+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ exitsudo docker stop 36589d[2Pps -arun -d nginx
+[sudo] password for cesc: 
+9a9d4d48c12240e3ea4bf3c042f8317b72215c1328679cb9040694cbc3ab9c76
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker run -d nginxexit[Ksudo docker run -d nginx
+1dd714fa9167f1a869d22ecd16b5741c3da58171ae529861e7beb11417c58f33
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ m[Ksudo docker run -d nginx
+39fb93043a96cb14c5a554b282e69ff2104cdfb588e33f68d32937f5d7433caf
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker run -d nginxexit[Ksudo docker stop 36589d[2Pps -arun -d nginxexit[Ksudo docker container prune[10Pps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS               NAMES
+39fb93043a96        nginx               "/docker-entrypoint.…"   7 seconds ago       Up 6 seconds        80/tcp              objective_chatelet
+1dd714fa9167        nginx               "/docker-entrypoint.…"   10 seconds ago      Up 10 seconds       80/tcp              vigorous_wozniak
+9a9d4d48c122        nginx               "/docker-entrypoint.…"   13 seconds ago      Up 12 seconds       80/tcp              exciting_kare
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker ps -arun -d nginxexit[Ksudo docker stop 36[K9
+39
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker stop 39[K[K1dç[K
+1d
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ sudo docker stop 1d39[2Pps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
+39fb93043a96        nginx               "/docker-entrypoint.…"   38 seconds ago      Exited (0) 20 seconds ago                       objective_chatelet
+1dd714fa9167        nginx               "/docker-entrypoint.…"   41 seconds ago      Exited (0) 9 seconds ago                        vigorous_wozniak
+9a9d4d48c122        nginx               "/docker-entrypoint.…"   44 seconds ago      Up 43 seconds               80/tcp              exciting_kare
+]0;cesc@home: ~/Documents/devopswithdocker[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker[00m$ exit
+exit
+
+Script done on 2020-11-22 19:43:36+01:00 [COMMAND_EXIT_CODE="0"]

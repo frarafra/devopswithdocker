@@ -1,0 +1,16 @@
+version: '3.5'
+services:
+  frontend: 
+    image: frontend-example 
+    ports: 
+      - 5000:5000
+  backend: 
+    image: backend-example 
+    ports: 
+      - 8888:8000
+    environment:
+      - REDIS=redis
+    links:
+      - redis
+  redis:
+    image: redis

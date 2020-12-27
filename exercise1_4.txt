@@ -1,0 +1,33 @@
+Script started on 2020-11-26 20:28:16+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ sus[Kdo docker run -d devopsdockeruh/exec_bash_exercise
+[sudo] password for cesc: 
+7f133f238bf210b829ee585a4ac51fc1c292df317b470e460fb8b0c3fe81db98
+]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ sudo docker e[Kps -la[K[K[K[K[K[Kls -a[C[1@c[1@o[1@n[1@t[1@a[1@i[1@n[1@e[1@r[1@ 
+CONTAINER ID        IMAGE                               COMMAND                  CREATED             STATUS                  PORTS               NAMES
+7f133f238bf2        devopsdockeruh/exec_bash_exercise   "docker-entrypoint.s…"   35 seconds ago      Up 34 seconds                               thirsty_feistel
+3c4534694195        ubuntu                              "/bin/bash"              4 days ago          Exited (0) 4 days ago                       beautiful_cori
+]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ [K]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ sudo docker exec -it thirsty_feistel bash
+root@7f133f238bf2:/usr/app# tail -f ./logs.txt
+"Docker is easy"
+Thu, 26 Nov 2020 19:30:45 GMT
+Thu, 26 Nov 2020 19:30:48 GMT
+Thu, 26 Nov 2020 19:30:51 GMT
+Thu, 26 Nov 2020 19:30:54 GMT
+Secret message is:
+"Docker is easy"
+Thu, 26 Nov 2020 19:31:00 GMT
+Thu, 26 Nov 2020 19:31:03 GMT
+Thu, 26 Nov 2020 19:31:06 GMT
+Thu, 26 Nov 2020 19:31:09 GMT
+Secret message is:
+"Docker is easy"
+Thu, 26 Nov 2020 19:31:15 GMT
+Thu, 26 Nov 2020 19:31:18 GMT
+Thu, 26 Nov 2020 19:31:21 GMT
+^C
+root@7f133f238bf2:/usr/app# exit
+exit
+]0;cesc@home: ~[01;32mcesc@home[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-11-26 20:31:31+01:00 [COMMAND_EXIT_CODE="130"]

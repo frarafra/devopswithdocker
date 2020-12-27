@@ -1,0 +1,14 @@
+Script started on 2020-12-06 13:33:15+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="12"]
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_8[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_8[00m$ exitsudo docker run -v "$(pwd)/usr/app/logs.txt:/usr/app/logs.txt" devopsdockeruh/first_volume_exercise[1P[1P[1P[1P[1P[1P[1P[1@l[1@o[1@g[1@s
+[sudo] password for cesc: 
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+^CClosing file
+]0;cesc@home: ~/Documents/devopswithdocker/part1/exercise1_8[01;32mcesc@home[00m:[01;34m~/Documents/devopswithdocker/part1/exercise1_8[00m$ ei[K[Kexit
+exit
+
+Script done on 2020-12-06 13:34:05+01:00 [COMMAND_EXIT_CODE="0"]
